@@ -19,27 +19,27 @@ export class CategoriaService{
     
 
     static async listarCategoria() {
-             try {
+ //            try {
           //const listaCategoria = await CategoriaProducto.find().populate(Producto.Producto).exec();
               
                     
           //const listaCategoria = await Producto.find({}).populate(Categoria.Categoria)          
           
-          const listaCategoria = await Producto.find({}).populate(Categoria.Categoria)          
+        //  const listaCategoria = await Producto.find({}).populate(Categoria.Categoria)          
           //const listaCategoria = await CategoriaProducto.find().populate(Categoria.Categoria).populate(Producto.Producto)                    
 
 
-         return listaCategoria
+       //  return listaCategoria
     
-        } catch (error) {
-            return {
-        message: error.message
-        }
+      //  } catch (error) {
+      //      return {
+     //   message: error.message
+      //  }
     
-         }
+       //  }
    
    
-        /*     try {
+             try {
           const listaCategoria = await Categoria.find(
             ).sort( {
                 nombre: 1
@@ -53,7 +53,7 @@ export class CategoriaService{
         message: error.message
         }
     
-         }*/
+         }
     }
 
     
