@@ -1,0 +1,26 @@
+{
+  "name": "pasarelapagos",
+  "version": "1.0.0",
+  "description": "pasarela",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "dotenv -e .env -- nodemon src/server.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "JULIO OBLITAS",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mercadopago": "^1.5.12",
+    "mongoose": "^6.2.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^5.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
