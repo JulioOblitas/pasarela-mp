@@ -84,4 +84,9 @@ export class PagoService{
         };
     }
     }
+
+    static recibirnotificacion(data){
+      console.log("data es")
+      console.log(data)
+    }
 }
