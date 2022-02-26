@@ -38,7 +38,8 @@ export class PagoService{
                     street_name :  clienteEncontrado.direccion.calle,
                     street_number: clienteEncontrado.direccion.numero,
                 }, 
-                email : 'test_user_46542185@testuser.com',
+                //email : 'test_user_46542185@testuser.com',
+                email : clienteEncontrado.correo,
                 //identification:{
                  //   type: "DNI",
                  //   number: "40085122"
